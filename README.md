@@ -48,13 +48,12 @@ Construção do Pipeline
 
 Salvar o dataset sem nenhuma transformação, mantendo os dados no formato original
 
-
 → python no script >> `scripts/ingest_raw.py`
 
 
 ### 2.2 [Camada Silver]
 
-Tratamento dos dados:
+#### 2.2.1 Tratamento dos dados:
 - padronização dos nomes
 - conversão dos dados
 - criação de métricas
@@ -64,6 +63,10 @@ Tratamento dos dados:
 
 
 → python no script >> `scripts/transform_silver.py`
+
+#### 2.2.2 Construção dos gráficos:
+
+→ python no script >> `scripts/graficos.py`
 
 
 ### 2.3 [Camada Gold]
