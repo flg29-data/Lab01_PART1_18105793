@@ -10,6 +10,8 @@
 
 Este laboratório tem como propósito a construção de um Pipeline (Engenharia de Dados), com a arquitetura em camadas: Raw, Bronze, Silver e Gold, com objetivo na ingestão, tratamento e preparo dos dados de transações do varejo (análise de cesta de compras, segmentação de clientes e análise de varejo).
 
+Link GitHub >> https://github.com/flg29-data/Lab01_PART1_18105793
+
 ## DATASET
 
 - **Nome:** Brazilian E-Commerce Public Dataset (Olist)
