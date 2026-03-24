@@ -94,7 +94,27 @@ Dicionário de dados construído
 
 | Coluna                   | Tipo      | Descrição |
 |--------------------------|----------|----------|
+| transaction_id             | bigint  | Campo Id transação - tabela fato vendas |
+| date             | timestamp  | Campo data - tabela fato vendas |
+| customer_name            | text  | Campo nome cliente - tabela fato vendas |
+| product             | text  | Campo nome cliente - tabela fato vendas |
+| total_itens             | bigint  | Campo nome cliente - tabela fato vendas |
+| total_cost             | double precision  | Campo nome cliente - tabela fato vendas |
+| payment_method             | text  | Campo nome cliente - tabela fato vendas |
+| city             | text  | Índice do registro da tabela fato vendas |
+| store_type             | text  | Índice do registro da tabela fato vendas |
+| discount_applied             | boolean  | Índice do registro da tabela fato vendas |
+| customer_applied             | boolean  | Índice do registro da tabela fato vendas |
+| season             | text  | Índice do registro da tabela fato vendas |
+| promotion             | text  | Índice do registro da tabela fato vendas |
+| total_value             | double precision  | Índice do registro da tabela fato vendas |
 | transaction_id             | Bigint  | Índice do registro da tabela fato vendas |
+| transaction_id             | Bigint  | Índice do registro da tabela fato vendas |
+| transaction_id             | Bigint  | Índice do registro da tabela fato vendas |
+| transaction_id             | Bigint  | Índice do registro da tabela fato vendas |
+| transaction_id             | Bigint  | Índice do registro da tabela fato vendas |
+| transaction_id             | Bigint  | Índice do registro da tabela fato vendas |
+
 
 ## 4. [Qualidade de Dados]
 
