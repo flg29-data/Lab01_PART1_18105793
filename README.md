@@ -12,9 +12,9 @@ Este laboratório tem como propósito a construção de um Pipeline (Engenharia 
 
 ## DATASET
 
-Nome: Brazilian E-Commerce Public Dataset (Olist)
-Fonte: Kaggle
-Conteúdo: Datas, Valores, Categorias
+- **Nome:** Brazilian E-Commerce Public Dataset (Olist)
+- **Fonte:** Kaggle
+- **Conteúdo:** Datas, Valores, Categorias
 
 ## Conteúdo
 
