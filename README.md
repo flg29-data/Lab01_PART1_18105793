@@ -90,6 +90,11 @@ Criação das Tabelas
 
 ## 3. [Dicionário de Dados]
 
+Dicionário de dados construído
+
+| Coluna                   | Tipo      | Descrição |
+|--------------------------|----------|----------|
+| transaction_id             | Bigint  | Índice do registro da tabela fato vendas |
 
 ## 4. [Qualidade de Dados]
 
