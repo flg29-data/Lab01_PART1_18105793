@@ -32,6 +32,7 @@ Este laboratório tem como propósito a construção de um Pipeline (Engenharia 
 
 → PostgreSQL (versão 18.3)
   - Instalação >> configuração da Porta 5432 >> pgAdmin
+  - Configuração Database >> CREATE DATABASE lab_data;
 ```
 
 ## 2. [Documentação da tarefa]
