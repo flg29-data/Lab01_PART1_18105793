@@ -114,7 +114,7 @@ Criação das Tabelas
 
 ## 3. [Dicionário de Dados]
 
-Dicionário de dados construído
+Dicionário de dados construído >> Silver
 
 | Coluna                   | Tipo      | Descrição |
 |--------------------------|----------|----------|
@@ -139,6 +139,7 @@ Dicionário de dados construído
 | transaction_id             | Bigint  | Índice do registro da tabela fato vendas |
 | transaction_id             | Bigint  | Índice do registro da tabela fato vendas |
 
+Dicionário de dados construído >> Gold
 
 ## 4. [Qualidade de Dados]
 
