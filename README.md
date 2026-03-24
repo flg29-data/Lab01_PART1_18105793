@@ -67,7 +67,7 @@ Criação do arquivo PARQUET
 Instalação da biblioteca >>  ```pip install matplotlib```
 → python no script >> `scripts/graficos.py`
 
-##GRÁFICOS GERADOS 
+## GRÁFICOS GERADOS 
 
 ### 1. Receita por país
 ![Receita por país](images/grafico1_barra_horizontal.png)
@@ -103,7 +103,7 @@ Criação das Tabelas
 
 → query SQL >> `sql/queries.sql`
 
-##CONSULTAS GERADAS
+## CONSULTAS GERADAS
 
 ### 1. Receita Total
 ### 2. Produto mais vendido
