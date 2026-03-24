@@ -68,7 +68,8 @@ Instalação da biblioteca >>  ```pip install matplotlib```
 ##GRÁFICOS GERADOS 
 
 ### 1. Receita por país
-![alt text](images/grafico1_barra_horizontal.png)
+![Receita por país](images/grafico1_barra_horizontal.png)
+
 
 ### 2. Top produtos
 ![alt text](images/grafico1_barra_horizontal.png)
