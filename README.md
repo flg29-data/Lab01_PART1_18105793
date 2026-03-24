@@ -8,7 +8,7 @@
 
 ## Objetivo
 
-Este laboratório tem como propósito a construção de um Pipeline (Engenharia de Dados), com a arquitetura em camadas: Raw, Bronze, Silver e Gold, com objetivo na ingestão, tratamento e preparo dos dados com dados de vendas do e-commerce no Brasil.
+Este laboratório tem como propósito a construção de um Pipeline (Engenharia de Dados), com a arquitetura em camadas: Raw, Bronze, Silver e Gold, com objetivo na ingestão, tratamento e preparo dos dados de vendas do e-commerce no Brasil.
 
 ## DATASET
 
