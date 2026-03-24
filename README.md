@@ -43,9 +43,9 @@ Este laboratório tem como propósito a construção de um Pipeline (Engenharia 
 
 Salvar o dataset sem nenhuma transformação, mantendo os dados no formato original
 
-```
-- python no scrpit >> `scripts/ingest_raw.py`
-```
+
+→ python no scrpit >> `scripts/ingest_raw.py`
+
 
 ### 2.2 [Camada Silver]
 
@@ -57,9 +57,9 @@ Tratamento dos dados:
 - remover valores inválidos
 - remover valores duplicados
 
-```
-- python no scrpit >> `scripts/transform_silver.py`
-```
+
+→ python no scrpit >> `scripts/transform_silver.py`
+
 
 ### 2.3 [Camada Gold]
 
