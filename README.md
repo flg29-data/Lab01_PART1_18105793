@@ -72,16 +72,16 @@ Instalação da biblioteca >>  ```pip install matplotlib```
 
 
 ### 2. Top produtos
-![alt text](images/grafico1_barra_horizontal.png)
+![Top produtos](images/grafico2_coluna_vertical.png)
 
 ### 3. Receita por mês
-![alt text](images/grafico1_barra_horizontal.png)
+![Receita por mês](images/grafico3_linha.png)
 
 ### 4. Distribuição de preços
-![alt text](images/grafico1_barra_horizontal.png)
+![Distribuição de preços](images/grafico4_histograma.png)
 
 ### 5. Ticket médio por cliente
-![alt text](images/grafico1_barra_horizontal.png)
+![Ticket médio por cliente](images/grafico5_pizza.png)
 
 ### 2.3 [Camada Gold]
 
