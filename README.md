@@ -20,7 +20,14 @@ Este laboratório tem como propósito a construção de um Pipeline (Engenharia 
 
 ## 1. [Arquitetura]
 
-``` CSV (Kaggle) - 1M Registros → Python (versão 3.14.3) → Parquet → PostgreSQL (versão 18.3) ```
+``` CSV (Kaggle) - 1M Registros
+→ Python (versão 3.14.3)
+  - Instalação bibliotecas >> pip install pandas sqlalchemy psycopg2-binary 
+→ Parquet
+  - Instalação >> ppip install fastparquet
+→ PostgreSQL (versão 18.3)
+  - Instalação >> configuração da Porta 5432 >> pgAdmin
+```
 
 ## 2. [Documentação da tarefa]
 
