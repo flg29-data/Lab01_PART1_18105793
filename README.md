@@ -16,7 +16,7 @@ Este laboratório tem como propósito a construção de um Pipeline (Engenharia 
 - **Fonte:** Kaggle
 - **Dataset:** Retail Transactions Dataset
 - **Arquivo Utilizado:** Retail_Transactions_Dataset.csv
-- **Volume:** 1.000.000 registros e xx colunas 
+- **Volume:** 1.000.000 registros e 13 colunas 
 
 ## Conteúdo
 
@@ -24,7 +24,7 @@ Este laboratório tem como propósito a construção de um Pipeline (Engenharia 
 
 ```
 → CSV (Kaggle) - 1M Registros
-  - Importação Carga 
+  - Importação Carga >> Arquivo: Retail_Transactions_Dataset.csv
 
 → Python (versão 3.14.3)
   - Instalação bibliotecas >> pip install pandas sqlalchemy psycopg2-binary
