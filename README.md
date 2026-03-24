@@ -41,7 +41,25 @@ Este laboratório tem como propósito a construção de um Pipeline (Engenharia 
 
 ### 2.1 [Camada Raw]
 
+Salvar o dataset sem nenhuma transformação, mantendo os dados no formato original
+
+```
+- python no scrpit >> `scripts/ingest_raw.py`
+```
+
 ### 2.2 [Camada Silver]
+
+Tratamento dos dados:
+- padronização dos nomes
+- conversão dos dados
+- criação de métricas
+- tratamento de nulos
+- remover valores inválidos
+- remover valores duplicados
+
+```
+- python no scrpit >> `scripts/transform_silver.py`
+```
 
 ### 2.3 [Camada Gold]
 
