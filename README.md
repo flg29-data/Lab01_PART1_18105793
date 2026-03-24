@@ -32,6 +32,9 @@ Este laboratório tem como propósito a construção de um Pipeline (Engenharia 
 → Parquet
   - Instalação >> ppip install fastparquet
 
+→ Gráficos Python
+  - Instalação Biblioteca >> pip install matplotlib
+
 → PostgreSQL (versão 18.3)
   - Instalação >> configuração da Porta 5432 >> pgAdmin
   - Configuração Database >> CREATE DATABASE lab_data;
