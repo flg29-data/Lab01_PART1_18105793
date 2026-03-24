@@ -18,11 +18,22 @@ Conteúdo: Datas, Valores, Categorias
 
 ## Conteúdo
 
-1. [Arquitetura]
+## 1. [Arquitetura]
 
 ``` CSV (Kaggle) - 1M Registros → Python (versão 3.14.3) → Parquet → PostgreSQL (versão 18.3) ```
 
-2. [Documentação da tarefa]
-3. [Dicionário de Dados]
-4. [Qualidade de Dados]
-5. [Instruções de Execução]
+## 2. [Documentação da tarefa]
+
+### 2.1 [Camada Raw]
+
+### 2.2 [Camada Silver]
+
+### 2.3 [Camada Gold]
+
+## 3. [Dicionário de Dados]
+
+
+## 4. [Qualidade de Dados]
+
+
+## 5. [Instruções de Execução]
