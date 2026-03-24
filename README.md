@@ -80,6 +80,10 @@ Carregamento dos dados PARQUET para PostgreSQL via Python
 
 → python no script >> `scripts/load_gold.py`
 
+Definição das Metricas de negócio (dados de transações do varejo)
+
+→ query SQL >> `sql/queries.sql`
+
 
 ## 3. [Dicionário de Dados]
 
