@@ -8,13 +8,15 @@
 
 ## Objetivo
 
-Este laboratório tem como propósito a construção de um Pipeline (Engenharia de Dados), com a arquitetura em camadas: Raw, Bronze, Silver e Gold, com objetivo na ingestão, tratamento e preparo dos dados de vendas do e-commerce no Brasil.
+Este laboratório tem como propósito a construção de um Pipeline (Engenharia de Dados), com a arquitetura em camadas: Raw, Bronze, Silver e Gold, com objetivo na ingestão, tratamento e preparo dos dados de transações do varejo (análise de cesta de compras, segmentação de clientes e análise de varejo).
 
 ## DATASET
 
 - **Nome:** Brazilian E-Commerce Public Dataset (Olist)
 - **Fonte:** Kaggle
-- **Conteúdo:** Datas, Valores, Categorias
+- **Dataset:** Retail Transactions Dataset
+- **Arquivo Utilizado:** Retail_Transactions_Dataset.csv
+- **Volume:** 1.000.000 registros e xx colunas 
 
 ## Conteúdo
 
