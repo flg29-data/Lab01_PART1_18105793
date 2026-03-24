@@ -54,20 +54,24 @@ Salvar o dataset sem nenhuma transformação, mantendo os dados no formato origi
 ### 2.2 [Camada Silver]
 
 #### 2.2.1 Tratamento dos dados:
-- padronização dos nomes
-- conversão dos dados
-- criação de métricas
-- tratamento de nulos
-- remover valores inválidos
-- remover valores duplicados
 
+Dados tratados (padronização campos, datas, métricas, nulos e duplicados)
+Criação do arquivo PARQUET
 
 → python no script >> `scripts/transform_silver.py`
 
 #### 2.2.2 Construção dos gráficos:
 
+Instalação da biblioteca >>  ```pip install matplotlib```
 → python no script >> `scripts/graficos.py`
 
+GRÁFICOS GERADOS 
+
+# 1. Receita por país
+# 2. Top produtos
+# 3. Receita por mês
+# 4. Distribuição de preços
+# 5. Ticket médio por cliente
 
 ### 2.3 [Camada Gold]
 
@@ -86,6 +90,14 @@ Criação das Tabelas
 #### 2.3.3 Definição das Metricas de negócio (dados de transações do varejo)
 
 → query SQL >> `sql/queries.sql`
+
+CONSULTAS GERADAS
+
+# 1. Receita Total
+# 2. Produto mais vendido
+# 3. Receita por país
+# 4. Crescimento mensal
+# 5. Ticket médio por cliente
 
 
 ## 3. [Dicionário de Dados]
@@ -118,6 +130,14 @@ Dicionário de dados construído
 
 ## 4. [Qualidade de Dados]
 
+Tratamentos realizados (Camada Silver)
+
+- padronização dos nomes das colunas
+- conversão dos dados
+- criação de métricas
+- tratamento de nulos
+- remover valores inválidos
+- remover valores duplicados
 
 ## 5. [Instruções de Execução]
 
