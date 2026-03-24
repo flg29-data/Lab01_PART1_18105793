@@ -71,7 +71,7 @@ Salvar o dataset sem nenhuma transformação, mantendo os dados no formato origi
 
 ### 2.3 [Camada Gold]
 
-Modelagem no PostgreSQL
+#### 2.3.1 Modelagem no PostgreSQL
 
 Criação das Tabelas
 1 Fato (fact_sales)
@@ -79,11 +79,11 @@ Criação das Tabelas
 
 → query SQL >> `sql/create_tables.sql`
 
-Carregamento dos dados PARQUET para PostgreSQL via Python
+#### 2.3.2 Carregamento dos dados PARQUET para PostgreSQL via Python
 
 → python no script >> `scripts/load_gold.py`
 
-Definição das Metricas de negócio (dados de transações do varejo)
+#### 2.3.3 Definição das Metricas de negócio (dados de transações do varejo)
 
 → query SQL >> `sql/queries.sql`
 
