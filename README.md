@@ -65,13 +65,22 @@ Criação do arquivo PARQUET
 Instalação da biblioteca >>  ```pip install matplotlib```
 → python no script >> `scripts/graficos.py`
 
-#GRÁFICOS GERADOS 
+##GRÁFICOS GERADOS 
 
 ### 1. Receita por país
+![alt text](images/grafico1_barra_horizontal.png)
+
 ### 2. Top produtos
+![alt text](images/grafico1_barra_horizontal.png)
+
 ### 3. Receita por mês
+![alt text](images/grafico1_barra_horizontal.png)
+
 ### 4. Distribuição de preços
+![alt text](images/grafico1_barra_horizontal.png)
+
 ### 5. Ticket médio por cliente
+![alt text](images/grafico1_barra_horizontal.png)
 
 ### 2.3 [Camada Gold]
 
@@ -91,7 +100,7 @@ Criação das Tabelas
 
 → query SQL >> `sql/queries.sql`
 
-#CONSULTAS GERADAS
+##CONSULTAS GERADAS
 
 ### 1. Receita Total
 ### 2. Produto mais vendido
