@@ -22,6 +22,8 @@ Este laboratório tem como propósito a construção de um Pipeline (Engenharia 
 
 ## 1. [Arquitetura]
 
+Construção do Pipeline
+
 ```
 → CSV (Kaggle) - 1M Registros
   - Importação Carga >> Arquivo: Retail_Transactions_Dataset.csv
@@ -65,6 +67,19 @@ Tratamento dos dados:
 
 
 ### 2.3 [Camada Gold]
+
+Modelagem no PostgreSQL
+
+Criação das Tabelas
+1 Fato (fact_sales)
+3 Dimensões (dim_product, dim_customer, dim_date)
+
+→ query SQL >> `sql/create_tables.sql`
+
+Carregamento dos dados PARQUET para PostgreSQL via Python
+
+→ python no script >> `scripts/load_gold.py`
+
 
 ## 3. [Dicionário de Dados]
 
