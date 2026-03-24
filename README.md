@@ -88,3 +88,13 @@ Carregamento dos dados PARQUET para PostgreSQL via Python
 
 
 ## 5. [Instruções de Execução]
+
+Execução realizada:
+
+```
+pip install -r requirements.txt
+
+python scripts/ingest_raw.py
+python scripts/transform_silver.py
+python scripts/load_gold.py
+```
