@@ -73,7 +73,16 @@ Salvar o dataset sem nenhuma transformação, mantendo os dados no formato origi
 #### 2.2.2 Construção dos gráficos:
 
 Instalação da biblioteca >>  ```pip install matplotlib```
+
+**RESULTADO**
+
+![install_matplotlib](images/install_matplotlib.png)
+
 → python no script >> `scripts/graficos.py`
+
+**RESULTADO**
+
+![Graficos](images/graficos.png)
 
 ## GRÁFICOS GERADOS 
 
@@ -185,12 +194,7 @@ Dicionário de dados construído >> Silver
 | season             | text  | Índice do registro da tabela fato vendas |
 | promotion             | text  | Índice do registro da tabela fato vendas |
 | total_value             | double precision  | Índice do registro da tabela fato vendas |
-| transaction_id             | Bigint  | Índice do registro da tabela fato vendas |
-| transaction_id             | Bigint  | Índice do registro da tabela fato vendas |
-| transaction_id             | Bigint  | Índice do registro da tabela fato vendas |
-| transaction_id             | Bigint  | Índice do registro da tabela fato vendas |
-| transaction_id             | Bigint  | Índice do registro da tabela fato vendas |
-| transaction_id             | Bigint  | Índice do registro da tabela fato vendas |
+
 
 Dicionário de dados construído >> Gold
 
