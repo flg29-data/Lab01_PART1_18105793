@@ -48,7 +48,28 @@ Construção do Pipeline
 
 ### 2.1 Camada Raw
 
-Salvar o dataset sem nenhuma transformação, mantendo os dados no formato original
+A camada Bronze representa o primeiro estágio do pipeline de dados, sendo responsável pela ingestão dos dados brutos sem alterações estruturais relevantes.
+
+#### Objetivo
+Capturar os dados exatamente como são fornecidos pela fonte, garantindo rastreabilidade e auditabilidade.
+
+#### Fonte de Dados
+- Dataset público (Kaggle / CSV local)
+- Arquivo original mantido sem modificações
+
+#### Armazenamento
+- Formato: CSV / Parquet
+- Local: `/bronze/`
+
+#### Processo de Ingestão
+- Leitura dos dados utilizando Pandas
+- Validação básica de estrutura (colunas e tipos)
+- Armazenamento no Data Lake local
+
+#### Características
+- Dados brutos (sem tratamento)
+- Pode conter inconsistências (nulos, duplicados, etc.)
+- Serve como histórico imutável
 
 → python no script >> `scripts/ingest_raw.py`
 
@@ -58,6 +79,27 @@ Salvar o dataset sem nenhuma transformação, mantendo os dados no formato origi
 
 
 ### 2.2 Camada Silver
+
+A camada Silver é responsável pela limpeza, padronização e preparação dos dados para análise.
+
+#### Objetivo
+Garantir qualidade e consistência dos dados antes da modelagem.
+
+#### Principais Tratamentos
+- Remoção de valores nulos
+- Tratamento de duplicidades
+- Padronização de nomes de colunas
+- Conversão de tipos de dados
+- Normalização de dados
+
+#### Armazenamento
+- Formato: Parquet
+- Local: `/silver/`
+
+#### Regras Aplicadas
+- Substituição de valores nulos pela mediana/média
+- Remoção de registros inválidos
+- Padronização de datas (YYYY-MM-DD)
 
 #### 2.2.1 Tratamento dos dados:
 
@@ -120,6 +162,29 @@ Instalação da biblioteca >>  ```pip install matplotlib```
 ![Ticket médio por cliente](images/grafico5_pizza.png)
 
 ### 2.3 Camada Gold
+
+A camada Gold contém dados refinados e estruturados para análise e consumo por ferramentas de BI.
+
+#### Objetivo
+Disponibilizar dados agregados e prontos para tomada de decisão.
+
+#### Transformações Realizadas
+- Criação de métricas de negócio
+- Agregações (SUM, COUNT, AVG)
+- Modelagem dimensional (fato e dimensão)
+
+#### Estrutura
+- Tabela Fato: `fact_sales`
+- Tabelas Dimensão: `dim_customer`, `dim_product`
+
+#### Exemplos de Métricas
+- Receita total
+- Quantidade de vendas
+- Ticket médio
+
+#### Armazenamento
+- Banco: PostgreSQL
+- Schema: `gold`
 
 #### 2.3.1 Modelagem no PostgreSQL
 
@@ -234,14 +299,32 @@ Construção das regras de negócio separando por:
 
 ## 4. Qualidade de Dados
 
-### 4.1 Tratamentos realizados (Camada Silver)
+### 4.1 Tratamentos realizados 
 
-- padronização dos nomes das colunas
-- conversão dos dados
-- criação de métricas
-- tratamento de nulos
-- remover valores inválidos
-- remover valores duplicados
+Os seguintes tratamentos foram aplicados ao longo do pipeline:
+
+#### Bronze
+- Ingestão dos dados brutos
+- Armazenamento sem alteração
+
+#### Silver
+- Remoção de duplicidades
+- Tratamento de valores nulos
+- Padronização de colunas
+- Conversão de tipos de dados
+- Limpeza de inconsistências
+
+#### Gold
+- Criação de métricas de negócio
+- Agregações analíticas
+- Estruturação em tabelas fato e dimensão
+- Preparação para consumo em BI
+- Carga no PostgreSQL
+
+#### Benefícios
+- Dados confiáveis e consistentes
+- Facilidade para análise
+- Base pronta para dashboards
 
 ## 5. Instruções de Execução
 
