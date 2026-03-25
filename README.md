@@ -118,6 +118,13 @@ Criação das Tabelas:
 
 #### 2.3.2 Definição das Metricas de negócio (dados de transações do varejo)
 
+Construção das regras de negócio separando por:
+- Receita Total
+- Produto mais vendido
+- Receita por país
+- Crescimento mensal
+- Ticket médio por cliente
+
 → query SQL >> `sql/queries.sql`
 
 #### 2.3.3 Carregamento dos dados PARQUET para PostgreSQL via Python
