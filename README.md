@@ -243,8 +243,6 @@ Construção das regras de negócio separando por:
 - remover valores inválidos
 - remover valores duplicados
 
-### 4.2 Tratamentos realizados (Camada Gold)
-
 ## 5. Instruções de Execução
 
 Execução realizada:
