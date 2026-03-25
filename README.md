@@ -22,7 +22,7 @@ Link GitHub >> https://github.com/flg29-data/Lab01_PART1_18105793
 
 ## Conteúdo
 
-## 1. [Arquitetura]
+## 1. Arquitetura
 
 Construção do Pipeline
 
@@ -44,16 +44,18 @@ Construção do Pipeline
   - Configuração Database >> CREATE DATABASE lab_data;
 ```
 
-## 2. [Documentação da tarefa]
+## 2. Documentação da tarefa
 
-### 2.1 [Camada Raw]
+### 2.1 Camada Raw
 
 Salvar o dataset sem nenhuma transformação, mantendo os dados no formato original
 
 → python no script >> `scripts/ingest_raw.py`
 
+**RESULTADO**
+![RESULTADO](images/ingest_raw.png)
 
-### 2.2 [Camada Silver]
+### 2.2 Camada Silver
 
 #### 2.2.1 Tratamento dos dados:
 
@@ -61,6 +63,9 @@ Dados tratados (padronização campos, datas, métricas, nulos e duplicados)
 Criação do arquivo PARQUET
 
 → python no script >> `scripts/transform_silver.py`
+
+**RESULTADO**
+![RESULTADO](images/transform_silver.png)
 
 #### 2.2.2 Construção dos gráficos:
 
@@ -71,7 +76,6 @@ Instalação da biblioteca >>  ```pip install matplotlib```
 
 ### 1. Receita por país
 ![Receita por país](images/grafico1_barra_horizontal.png)
-
 
 ### 2. Top produtos
 ![Top produtos](images/grafico2_coluna_vertical.png)
@@ -85,7 +89,7 @@ Instalação da biblioteca >>  ```pip install matplotlib```
 ### 5. Ticket médio por cliente
 ![Ticket médio por cliente](images/grafico5_pizza.png)
 
-### 2.3 [Camada Gold]
+### 2.3 Camada Gold
 
 #### 2.3.1 Modelagem no PostgreSQL
 
@@ -99,6 +103,9 @@ Criação das Tabelas
 
 → python no script >> `scripts/load_gold.py`
 
+**RESULTADO**
+![RESULTADO](images/load_gold.png)
+
 #### 2.3.3 Definição das Metricas de negócio (dados de transações do varejo)
 
 → query SQL >> `sql/queries.sql`
@@ -106,13 +113,27 @@ Criação das Tabelas
 ## CONSULTAS GERADAS
 
 ### 1. Receita Total
+**RESULTADO**
+![Receita Total](images/load_gold.png)
+
 ### 2. Produto mais vendido
+**RESULTADO**
+![Receita Total](images/load_gold.png)
+
 ### 3. Receita por país
+**RESULTADO**
+![Receita Total](images/load_gold.png)
+
 ### 4. Crescimento mensal
+**RESULTADO**
+![Receita Total](images/load_gold.png)
+
 ### 5. Ticket médio por cliente
+**RESULTADO**
+![Receita Total](images/load_gold.png)
 
 
-## 3. [Dicionário de Dados]
+## 3. Dicionário de Dados
 
 Dicionário de dados construído >> Silver
 
@@ -141,7 +162,7 @@ Dicionário de dados construído >> Silver
 
 Dicionário de dados construído >> Gold
 
-## 4. [Qualidade de Dados]
+## 4. Qualidade de Dados
 
 Tratamentos realizados (Camada Silver)
 
@@ -152,7 +173,7 @@ Tratamentos realizados (Camada Silver)
 - remover valores inválidos
 - remover valores duplicados
 
-## 5. [Instruções de Execução]
+## 5. Instruções de Execução
 
 Execução realizada:
 
