@@ -61,8 +61,8 @@ Salvar o dataset sem nenhuma transformação, mantendo os dados no formato origi
 
 #### 2.2.1 Tratamento dos dados:
 
-Dados tratados (padronização campos, datas, métricas, nulos e duplicados)
-Criação do arquivo PARQUET
+- Dados tratados (padronização campos, datas, métricas, nulos e duplicados)
+- Criação do arquivo PARQUET
 
 → python no script >> `scripts/transform_silver.py`
 
