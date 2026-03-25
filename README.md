@@ -56,6 +56,7 @@ Salvar o dataset sem nenhuma transformação, mantendo os dados no formato origi
 
 ![RESULTADO](images/ingest_raw.png)
 
+
 ### 2.2 Camada Silver
 
 #### 2.2.1 Tratamento dos dados:
@@ -66,6 +67,7 @@ Criação do arquivo PARQUET
 → python no script >> `scripts/transform_silver.py`
 
 **RESULTADO**
+
 ![RESULTADO](images/transform_silver.png)
 
 #### 2.2.2 Construção dos gráficos:
@@ -105,6 +107,7 @@ Criação das Tabelas
 → python no script >> `scripts/load_gold.py`
 
 **RESULTADO**
+
 ![RESULTADO](images/load_gold.png)
 
 #### 2.3.3 Definição das Metricas de negócio (dados de transações do varejo)
@@ -115,23 +118,28 @@ Criação das Tabelas
 
 ### 1. Receita Total
 **RESULTADO**
-![Receita Total](images/load_gold.png)
+
+![Receita Total](images/sql_receita_total.png)
 
 ### 2. Produto mais vendido
 **RESULTADO**
-![Receita Total](images/load_gold.png)
+
+![Receita Total](images/sql_produto_vendido.png)
 
 ### 3. Receita por país
 **RESULTADO**
-![Receita Total](images/load_gold.png)
+
+![Receita Total](images/sql_receita_pais.png)
 
 ### 4. Crescimento mensal
 **RESULTADO**
-![Receita Total](images/load_gold.png)
+
+![Receita Total](images/crescimento_mensal.png)
 
 ### 5. Ticket médio por cliente
 **RESULTADO**
-![Receita Total](images/load_gold.png)
+
+![Receita Total](images/ticket_cliente.png)
 
 
 ## 3. Dicionário de Dados
