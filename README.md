@@ -78,18 +78,28 @@ Instalação da biblioteca >>  ```pip install matplotlib```
 ## GRÁFICOS GERADOS 
 
 ### 1. Receita por país
+**RESULTADO**
+
 ![Receita por país](images/grafico1_barra_horizontal.png)
 
 ### 2. Top produtos
+**RESULTADO**
+
 ![Top produtos](images/grafico2_coluna_vertical.png)
 
 ### 3. Receita por mês
+**RESULTADO**
+
 ![Receita por mês](images/grafico3_linha.png)
 
 ### 4. Distribuição de preços
+**RESULTADO**
+
 ![Distribuição de preços](images/grafico4_histograma.png)
 
 ### 5. Ticket médio por cliente
+**RESULTADO**
+
 ![Ticket médio por cliente](images/grafico5_pizza.png)
 
 ### 2.3 Camada Gold
