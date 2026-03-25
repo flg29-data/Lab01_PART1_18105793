@@ -178,25 +178,28 @@ Construção das regras de negócio separando por:
 
 Dicionário de dados construído >> Silver
 
-| Coluna                   | Tipo      | Descrição |
-|--------------------------|----------|----------|
-| transaction_id             | bigint  | Campo Id transação - tabela fato vendas |
-| date             | timestamp  | Campo data - tabela fato vendas |
-| customer_name            | text  | Campo nome cliente - tabela fato vendas |
-| product             | text  | Campo nome cliente - tabela fato vendas |
-| total_itens             | bigint  | Campo nome cliente - tabela fato vendas |
-| total_cost             | double precision  | Campo nome cliente - tabela fato vendas |
-| payment_method             | text  | Campo nome cliente - tabela fato vendas |
-| city             | text  | Índice do registro da tabela fato vendas |
-| store_type             | text  | Índice do registro da tabela fato vendas |
-| discount_applied             | boolean  | Índice do registro da tabela fato vendas |
-| customer_applied             | boolean  | Índice do registro da tabela fato vendas |
-| season             | text  | Índice do registro da tabela fato vendas |
-| promotion             | text  | Índice do registro da tabela fato vendas |
-| total_value             | double precision  | Índice do registro da tabela fato vendas |
-
 
 Dicionário de dados construído >> Gold
+
+#### `fact_sales`
+
+| Coluna                   | Tipo      | Descrição |
+|--------------------------|----------|----------|
+| `transaction_id`             | bigint  | Campo Id transação |
+| `date`             | timestamp  | Campo data|
+| `customer_name`            | text  | Campo nome cliente  |
+| `product`             | text  | Campo produto |
+| `total_itens`            | bigint  | Campo total itens venda |
+| `total_cost`             | double precision  | Campo total soma vendas |
+| `payment_method`             | text  | Campo metodo de pagamento |
+| `city`             | text  | Campo cidade |
+| `store_type`             | text  | Campo tipo de loja |
+| `discount_applied`             | boolean  | Campo desconto aplicado |
+| `customer_applied`             | boolean  | Campo consumidor aplicado |
+| `season`             | text  | Campo sazonalidade |
+| `promotion`             | text  | Campo promocao produtos |
+| `total_value`             | double precision  | Campo valor total |
+
 
 
 ## 4. Qualidade de Dados
