@@ -102,7 +102,15 @@ Criação das Tabelas
 
 → query SQL >> `sql/create_tables.sql`
 
-#### 2.3.2 Carregamento dos dados PARQUET para PostgreSQL via Python
+**RESULTADO**
+
+![RESULTADO](images/load_gold.png)
+
+#### 2.3.2 Definição das Metricas de negócio (dados de transações do varejo)
+
+→ query SQL >> `sql/queries.sql`
+
+#### 2.3.3 Carregamento dos dados PARQUET para PostgreSQL via Python
 
 → python no script >> `scripts/load_gold.py`
 
@@ -110,9 +118,7 @@ Criação das Tabelas
 
 ![RESULTADO](images/load_gold.png)
 
-#### 2.3.3 Definição das Metricas de negócio (dados de transações do varejo)
 
-→ query SQL >> `sql/queries.sql`
 
 ## CONSULTAS GERADAS
 
