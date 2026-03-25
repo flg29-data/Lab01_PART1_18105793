@@ -104,7 +104,7 @@ Criação das Tabelas
 
 **RESULTADO**
 
-![RESULTADO](images/load_gold.png)
+![RESULTADO](images/sql_create_tables.png)
 
 #### 2.3.2 Definição das Metricas de negócio (dados de transações do varejo)
 
