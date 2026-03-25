@@ -96,9 +96,9 @@ Instalação da biblioteca >>  ```pip install matplotlib```
 
 #### 2.3.1 Modelagem no PostgreSQL
 
-Criação das Tabelas
-1 Fato (fact_sales)
-3 Dimensões (dim_product, dim_customer, dim_date)
+Criação das Tabelas:
+- 1 Fato (fact_sales)
+- 3 Dimensões (dim_product, dim_customer, dim_date)
 
 → query SQL >> `sql/create_tables.sql`
 
@@ -177,9 +177,10 @@ Dicionário de dados construído >> Silver
 
 Dicionário de dados construído >> Gold
 
+
 ## 4. Qualidade de Dados
 
-Tratamentos realizados (Camada Silver)
+### 4.1 Tratamentos realizados (Camada Silver)
 
 - padronização dos nomes das colunas
 - conversão dos dados
@@ -187,6 +188,8 @@ Tratamentos realizados (Camada Silver)
 - tratamento de nulos
 - remover valores inválidos
 - remover valores duplicados
+
+### 4.2 Tratamentos realizados (Camada Gold)
 
 ## 5. Instruções de Execução
 
