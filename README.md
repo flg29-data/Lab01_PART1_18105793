@@ -124,22 +124,22 @@ Criação das Tabelas
 ### 2. Produto mais vendido
 **RESULTADO**
 
-![Receita Total](images/sql_produto_vendido.png)
+![Produto mais vendido](images/sql_produto_vendido.png)
 
 ### 3. Receita por país
 **RESULTADO**
 
-![Receita Total](images/sql_receita_pais.png)
+![Receita por país](images/sql_receita_pais.png)
 
 ### 4. Crescimento mensal
 **RESULTADO**
 
-![Receita Total](images/crescimento_mensal.png)
+![Crescimento mensal](images/sql_crescimento_mensal.png)
 
 ### 5. Ticket médio por cliente
 **RESULTADO**
 
-![Receita Total](images/ticket_cliente.png)
+![Ticket médio por cliente](images/sql_ticket_cliente.png)
 
 
 ## 3. Dicionário de Dados
