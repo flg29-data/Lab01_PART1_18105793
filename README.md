@@ -72,6 +72,14 @@ Salvar o dataset sem nenhuma transformação, mantendo os dados no formato origi
 
 #### 2.2.2 Construção dos gráficos:
 
+Construção dos graficos separados por:
+
+- Receita por pais (barra horizontal)
+- Top produtos (coluna vertical)
+- Receita por mês (linha)
+- Distribuição de preços (histograma)
+- Ticket médio por cliente (pizza)
+
 Instalação da biblioteca >>  ```pip install matplotlib```
 
 **RESULTADO**
