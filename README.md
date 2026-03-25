@@ -179,7 +179,7 @@ Construção das regras de negócio separando por:
 Dicionário de dados construído >> Silver
 
 
-Dicionário de dados construído >> Gold
+*Dicionário de dados construído >> Gold*
 
 #### `fact_sales`
 
@@ -199,6 +199,31 @@ Dicionário de dados construído >> Gold
 | `season`             | text  | Campo sazonalidade |
 | `promotion`             | text  | Campo promocao produtos |
 | `total_value`             | double precision  | Campo valor total |
+
+
+#### `dim_customer`
+
+| Coluna                   | Tipo      | Descrição |
+|--------------------------|----------|----------|
+| `customer_name`             | text  | Campo nome cliente |
+| `city`             | text  | Campo cidade |
+
+
+#### `dim_date`
+
+| Coluna                   | Tipo      | Descrição |
+|--------------------------|----------|----------|
+| `date_id`             | date  | Campo Id data |
+| `year`             | int  | Campo ano |
+| `month`             | int  | Campo mes |
+
+
+#### `dim_product`
+
+| Coluna                   | Tipo      | Descrição |
+|--------------------------|----------|----------|
+| `product_id`             | int  | Campo Id produto |
+| `product`             | text  | Campo nome produto |
 
 
 
