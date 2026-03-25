@@ -53,6 +53,7 @@ Salvar o dataset sem nenhuma transformação, mantendo os dados no formato origi
 → python no script >> `scripts/ingest_raw.py`
 
 **RESULTADO**
+
 ![RESULTADO](images/ingest_raw.png)
 
 ### 2.2 Camada Silver
