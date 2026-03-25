@@ -184,10 +184,7 @@ Construção das regras de negócio separando por:
 
 ## 3. Dicionário de Dados
 
-Dicionário de dados construído >> Silver
-
-
-*Dicionário de dados construído >> Gold*
+*Dicionário de dados construído*
 
 #### `fact_sales`
 
